@@ -341,7 +341,7 @@ let disposeBag = DisposeBag()
 
 ### That‘s it！
 
-Demo 我已经放在 GitHub 上了。
+Demo 我已经放在 [GitHub](https://github.com/CepheusTeam/Translate) 上了。
 
 到现在, 我们已经学到了如何创建一个 Observable 和 订阅者。以及 disposing 机制是怎么回事。希望你能够理解到这样做比平常的观察者模式有什么优势。
 
