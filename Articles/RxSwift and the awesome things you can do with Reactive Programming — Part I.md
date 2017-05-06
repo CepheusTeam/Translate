@@ -1,13 +1,7 @@
----
-title: RxSwift and the awesome things you can do with Reactive Programming — Part I
-date: 2017-5-5
-tags: [iOS, Reactive, Swift, 翻译]
-categories: Reactive
----
-
+##RxSwift and the awesome things you can do with Reactive Programming — Part I
 
 本文翻译自国外的美女工程师 [Kenza Iraki](https://medium.com/@kenzai) 的文章 [RxSwift and the awesome things you can do with Reactive Programming — Part I](https://medium.com/@kenzai/rxswift-and-the-awesome-things-you-can-do-with-reactive-programming-part-i-3921137d251)
-
+date: 2017-5-5
 
 第一次听见响应式编程，我的表情是这样的
 

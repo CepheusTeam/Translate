@@ -1,11 +1,8 @@
----
-title: MVVM design pattern and RxSwift
-date: 2017-5-6
-tags: [iOS, Reactive, Swift, 翻译, 设计模式]
-categories: Reactive
----
+
+## MVVM design pattern and RxSwift
 
 本文翻译自(http://lukagabric.com/mvvm-design-pattern-and-rxswift/)
+date: 2017-5-6
 
 ### MVVM
 MVVM 是一种设计模式。他是程序的代码分离成三个部分: `Model`、`View`、`ViewModel`。 `Model` 代表数据的表现, `View` 代表用户看到的界面，`ViewModel` 代表着模型层和视图层的主要关联关系。
