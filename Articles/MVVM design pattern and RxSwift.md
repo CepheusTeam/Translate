@@ -2,6 +2,7 @@
 ## MVVM design pattern and RxSwift
 
 本文翻译自(http://lukagabric.com/mvvm-design-pattern-and-rxswift/)
+
 date: 2017-5-6
 
 ### MVVM
