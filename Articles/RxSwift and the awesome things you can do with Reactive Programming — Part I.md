@@ -1,4 +1,4 @@
-##RxSwift and the awesome things you can do with Reactive Programming — Part I
+## RxSwift and the awesome things you can do with Reactive Programming — Part I
 
 本文翻译自国外的美女工程师 [Kenza Iraki](https://medium.com/@kenzai) 的文章 [RxSwift and the awesome things you can do with Reactive Programming — Part I](https://medium.com/@kenzai/rxswift-and-the-awesome-things-you-can-do-with-reactive-programming-part-i-3921137d251)
 
