@@ -2,6 +2,7 @@
 
 在这个项目中, 收录一些我翻译的文章。
 
+这些文章全部都在我的[博客]( http://CepheusSun.com)上。
 
 
 
@@ -16,6 +17,6 @@
 
 * [RxSwift For Dummies 🐣 Part2](https://github.com/CepheusTeam/Translate/blob/master/Articles/RxSwift%20For%20Dummies%20Part2.md)
 
-* RxSwift For Dummies 🐣 Part3
+* [RxSwift For Dummies 🐣 Part3](https://github.com/CepheusSun/Translate/blob/master/Articles/RxSwift%20For%20Dummies%20Part3.md)
 
 
