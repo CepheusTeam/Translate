@@ -19,4 +19,6 @@
 
 * [RxSwift For Dummies 🐣 Part3](https://github.com/CepheusSun/Translate/blob/master/Articles/RxSwift%20For%20Dummies%20Part3.md)
 
+* RxSwift Safety Manual 📚
+
 
