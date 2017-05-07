@@ -21,4 +21,6 @@
 
 * [RxSwift Safety Manual 📚](https://github.com/CepheusSun/Translate/blob/master/Articles/RxSwift%20Safety%20Manual.md)
 
+* RxSwift MVVM API Manual 📃
+
 
