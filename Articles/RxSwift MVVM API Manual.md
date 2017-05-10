@@ -43,7 +43,7 @@ class FilterViewModel {
 
 #### Output
 
-记住 `output` 应该是 `Observable`, 甚至是 `Subject`。 如果不这样的话，一些外部的类可能会错误的把这他当做是 `output` 这样就打破了封装了。当我想要发出一个变量的时候, 就是强制的释放。
+记住 `output` 应该是 `Observable`, 甚至是 `Subject`。 如果不这样的话，一些外部的类可能会错误的把这他当做是 `input` 这样就打破了封装了。当我想要发出一个变量的时候, 就是强制的释放。
 
 ```swift
     (observable as! PublishSubject)
