@@ -78,7 +78,7 @@ class MyViewModel {
  //Cold ❄️
  let createRequest : Template<Int>
  //Hot 🌶
- let shouldShowelement : Driver<Bool>
+ let shouldShowElement : Driver<Bool>
 }
 ```
 
