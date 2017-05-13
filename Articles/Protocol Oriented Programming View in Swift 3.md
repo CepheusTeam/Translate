@@ -162,7 +162,7 @@ class MyImageView: UIImageVIew, Buzzable, Poppable
 * 更 Swifty
 
 
-[SourceCode](https://github.com/bobthedev/Blog_Protocol_Oriented_View)
+[SourceCode](https://github.com/CepheusSun/Translate/tree/master/demos/Protocol%20Oriented%20Programming%20View%20in%20Swift%203)
 
 
 ### That's it!
