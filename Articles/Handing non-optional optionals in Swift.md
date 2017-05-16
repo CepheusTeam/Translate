@@ -192,3 +192,10 @@ fatal error: Configuration couldn’t be loaded. Verify that Config.JSON is vali
 3. 在遇到这种情况的时候, 让程序崩溃, 并抛出异常。
 
 
+### That's it!
+[原文地址](https://medium.com/@johnsundell/handling-non-optional-optionals-in-swift-e5706390f56f)
+
+### 最后
+
+我是一名来自中国的 iOS 程序员, 对技术有着浓厚的兴趣, 在学习的过程中, 发现了很多来自国外的优秀博客。为了更好的学习这些文章, 产生了将这些文章翻译成中文的想法。
+
