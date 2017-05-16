@@ -31,3 +31,10 @@
 * [Protocol Oriented Programming View in Swift 3](https://github.com/CepheusSun/Translate/blob/master/Articles/Protocol%20Oriented%20Programming%20View%20in%20Swift%203.md)
 
 
+
+
+**Swift**
+
+
+[Handing non-optional optionals in Swift]()
+
