@@ -37,6 +37,7 @@
 
 
 * [Handing non-optional optionals in Swift](https://github.com/CepheusSun/Translate/blob/master/Articles/Handing%20non-optional%20optionals%20in%20Swift.md)
+
 * [Picking the right way of failing in Swift](https://github.com/CepheusSun/Translate/blob/master/Articles/Picking%20the%20right%20way%20of%20failing%20in%20Swift.md)
 
 
