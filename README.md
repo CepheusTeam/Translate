@@ -40,6 +40,6 @@
 
 * [Picking the right way of failing in Swift](https://github.com/CepheusSun/Translate/blob/master/Articles/Picking%20the%20right%20way%20of%20failing%20in%20Swift.md)
 
-* [Using lazy properties in Swift]()
+* [Using lazy properties in Swift](https://github.com/CepheusSun/Translate/blob/master/Articles/Using%20lazy%20properties%20in%20Swift.md)
 
 
