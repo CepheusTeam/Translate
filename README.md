@@ -43,5 +43,7 @@
 * [Using lazy properties in Swift](https://github.com/CepheusSun/Translate/blob/master/Articles/Using%20lazy%20properties%20in%20Swift.md)
 
 
-* [Swift: Syntax Cheat Codes]()
+* [Swift: Syntax Cheat Codes](https://github.com/CepheusSun/Translate/blob/master/Articles/Swift%20Syntax%20Cheat%20Codes.md)
+
+* [Swifty Tips ⚡️](https://github.com/CepheusSun/Translate/blob/master/Articles/Swifty%20Tips.md)
 
