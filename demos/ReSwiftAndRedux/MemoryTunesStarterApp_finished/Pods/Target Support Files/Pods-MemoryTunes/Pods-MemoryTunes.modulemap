@@ -1,0 +1,6 @@
+framework module Pods_MemoryTunes {
+  umbrella header "Pods-MemoryTunes-umbrella.h"
+
+  export *
+  module * { export * }
+}
