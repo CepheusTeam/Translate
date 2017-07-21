@@ -47,3 +47,6 @@
 
 * [Swifty Tips ⚡️](https://github.com/CepheusSun/Translate/blob/master/Articles/Swifty%20Tips.md)
 
+* [用 ReSwift 实现 Redux 架构](https://github.com/CepheusSun/Translate/blob/master/Articles/ReSwiftAndRedux.md)
+
+

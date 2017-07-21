@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu-->
+        <scene sceneID="r5d-gB-8zO">
+            <objects>
+                <tableViewController storyboardIdentifier="MenuTableViewController" title="Menu" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oda-j5-Jnj" customClass="MenuTableViewController" customModule="MemoryTunes" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="48" sectionHeaderHeight="28" sectionFooterHeight="28" id="7qM-Ol-XYc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.41568627450980389" green="0.83529411764705885" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TitleCell" id="VoT-V7-yZM">
+                                <rect key="frame" x="0.0" y="28" width="375" height="48"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VoT-V7-yZM" id="I7p-ij-Sj3">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.41568627450000001" green="0.83529411760000005" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="rect" keyPath="contentInset">
+                                <rect key="value" x="40" y="0.0" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="dataSource" destination="oda-j5-Jnj" id="d7W-7L-VFS"/>
+                            <outlet property="delegate" destination="oda-j5-Jnj" id="1B4-Bo-n6J"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Menu" id="FSG-2n-re3"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FdH-TW-YZh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="86"/>
+        </scene>
+        <!--Game-->
+        <scene sceneID="IQE-Xg-fym">
+            <objects>
+                <viewController storyboardIdentifier="GameViewController" title="Game" useStoryboardIdentifierAsRestorationIdentifier="YES" id="UaV-jD-crb" customClass="GameViewController" customModule="MemoryTunes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vWt-1X-MuA"/>
+                        <viewControllerLayoutGuide type="bottom" id="OkT-kn-HMf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4uo-ej-tN5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rev-4l-7gB">
+                                <rect key="frame" x="10" y="30" width="355" height="637"/>
+                                <color key="backgroundColor" red="0.8980392157" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="e9W-L5-TvH">
+                                    <size key="itemSize" width="80" height="80"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCell" id="uAT-So-QDk" customClass="CardCollectionViewCell" customModule="MemoryTunes" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hmA-JV-5CJ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.41568627450000001" green="0.83529411760000005" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="hmA-JV-5CJ" secondAttribute="trailing" id="4yo-Cd-e9A"/>
+                                            <constraint firstAttribute="bottom" secondItem="hmA-JV-5CJ" secondAttribute="bottom" id="IPB-qJ-ZyY"/>
+                                            <constraint firstItem="hmA-JV-5CJ" firstAttribute="leading" secondItem="uAT-So-QDk" secondAttribute="leading" id="KWT-PB-aVP"/>
+                                            <constraint firstItem="hmA-JV-5CJ" firstAttribute="top" secondItem="uAT-So-QDk" secondAttribute="top" id="lqE-yX-oHW"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="cardImageView" destination="hmA-JV-5CJ" id="FRW-C9-dF8"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Wsk-Ei-T2T">
+                                <rect key="frame" x="177.5" y="323.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89803921568627454" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rev-4l-7gB" secondAttribute="trailing" constant="10" id="SWj-04-Tct"/>
+                            <constraint firstItem="rev-4l-7gB" firstAttribute="top" secondItem="4uo-ej-tN5" secondAttribute="top" constant="30" id="bWg-tn-f7e"/>
+                            <constraint firstItem="Wsk-Ei-T2T" firstAttribute="centerY" secondItem="4uo-ej-tN5" secondAttribute="centerY" id="c1Q-dZ-jVs"/>
+                            <constraint firstItem="OkT-kn-HMf" firstAttribute="top" secondItem="rev-4l-7gB" secondAttribute="bottom" id="f6G-1e-hES"/>
+                            <constraint firstItem="rev-4l-7gB" firstAttribute="leading" secondItem="4uo-ej-tN5" secondAttribute="leading" constant="10" id="kpA-81-CRO"/>
+                            <constraint firstItem="Wsk-Ei-T2T" firstAttribute="centerX" secondItem="4uo-ej-tN5" secondAttribute="centerX" id="osW-cd-DYH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="rev-4l-7gB" id="Aho-tq-78u"/>
+                        <outlet property="loadingIndicator" destination="Wsk-Ei-T2T" id="xDE-VK-vvG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="REa-wT-fDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440.80000000000001" y="764.16791604197908"/>
+        </scene>
+        <!--Categories-->
+        <scene sceneID="hYW-Cf-QMN">
+            <objects>
+                <tableViewController storyboardIdentifier="CategoriesTableViewController" title="Categories" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xZZ-jq-xKi" customClass="CategoriesTableViewController" customModule="MemoryTunes" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="IJT-Me-JYu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.49803921568627452" green="0.74509803921568629" blue="0.6705882352941176" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="CategoryCell" id="vR5-Ka-68n">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vR5-Ka-68n" id="TT1-ff-ge9">
+                                    <rect key="frame" x="0.0" y="0.0" width="336" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.49803921569999998" green="0.74509803919999995" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xZZ-jq-xKi" id="Igh-9S-O4y"/>
+                            <outlet property="delegate" destination="xZZ-jq-xKi" id="z01-me-dAF"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zig-BO-6lk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1245" y="93"/>
+        </scene>
+    </scenes>
+</document>
