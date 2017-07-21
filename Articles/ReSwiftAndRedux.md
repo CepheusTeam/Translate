@@ -44,7 +44,7 @@ ReSwift 中的单向数据流</center>
 
 ## 开始
 
-这是一个已经把整个框架差不多搭建起来的模版项目，包含了一些骨架代码，和库。
+这是一个已经把整个框架差不多搭建起来的模版项目，包含了一些骨架代码，和库。[GitHub](https://github.com/CepheusSun/Translate/tree/master/demos/ReSwiftAndRedux)
 
 首先需要做一些准备工作，首先就是要设置这个app最重要的部分:state
 
@@ -922,7 +922,7 @@ store.dispatch(FlipCardAction(cardIndexToFlip: indexPath.row))
 
 ## 结束语
 
-模版项目已经完整项目都在 []() 
+模版项目已经完整项目都在 [GitHub](https://github.com/CepheusSun/Translate/tree/master/demos/ReSwiftAndRedux) 
 
 ReSwift 不仅仅是我们今天提到的内容。他还以很多:
 
@@ -938,3 +938,4 @@ ReSwift 不仅仅是我们今天提到的内容。他还以很多:
 [Christian Tietze’s blog](http://christiantietze.de/posts/2016/01/reswift-level-indirection/) 的博客上有很多有趣的例子。
 
 **这篇文章翻译自Ray wenderlich [ReSwift Tutorial: Memory Game App](https://www.raywenderlich.com/155815/reswift-tutorial-memory-game-app)]**
+
