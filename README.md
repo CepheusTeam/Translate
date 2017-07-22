@@ -47,6 +47,10 @@
 
 * [Swifty Tips ⚡️](https://github.com/CepheusSun/Translate/blob/master/Articles/Swifty%20Tips.md)
 
+**Ray wenderlich**
+
 * [用 ReSwift 实现 Redux 架构](https://github.com/CepheusSun/Translate/blob/master/Articles/ReSwiftAndRedux.md)
+
+* [一个人的敏捷开发](https://github.com/CepheusSun/Translate/blob/master/Articles/%E4%B8%80%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91.md)
 
 
