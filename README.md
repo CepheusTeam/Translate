@@ -51,4 +51,6 @@
 
 * [用 ReSwift 实现 Redux 架构](https://github.com/CepheusSun/Translate/blob/master/Articles/ReSwiftAndRedux.md)
 
+*[一个人的敏捷开发](https://github.com/CepheusSun/Translate/blob/master/Articles/)
+
 
