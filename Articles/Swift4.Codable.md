@@ -1,9 +1,6 @@
----
-title: Swift4.Codable
-date: 2017-8-29 00:15:23
-tags: [iOS, Swift, 翻译]
-categories: Swift
----
+
+# Swift4.Codable
+
 
 WWDC2017中发布的 Swift4.0 有一个有趣的新特性： Coadble. 今天我们就来聊聊这个 Swift4.0 带来的协议！
 
